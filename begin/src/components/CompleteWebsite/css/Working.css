@@ -1,0 +1,36 @@
+.main-div{
+    display: flex;
+}
+.logo{
+    /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+        color: blueviolet;
+        padding: 10px;
+        border-radius: 50%;
+        width: 50px;
+        background-color: lightcyan;
+        text-align: center;
+        margin: 1px auto;
+
+}
+.logo:hover{
+    background-color:lightsteelblue;
+}
+.detail{
+    text-align: center;
+}
+
+.heading{
+    font-size: 20px;
+    text-align: center;
+}
+
+.outer_div{
+    height: 400px;
+    margin: -80px 100px 0px 100px;
+    background-color:#D2E0FB;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

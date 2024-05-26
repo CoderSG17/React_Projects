@@ -1,0 +1,61 @@
+.ryt_div{
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+}
+.logo1{
+    /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+        color: blueviolet;
+        padding: 5px;
+        border-radius: 50%;
+        width: 40px;
+        /* height: 50px; */
+        background-color: lightcyan;
+        text-align: left;
+        margin: 3px;
+
+}
+.logo1:hover{
+    background-color:lightskyblue;
+}
+
+.heading1{
+    margin-top: -33px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.detail{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.btn2{
+    width: 100px;
+    margin-left: 4px;
+    border-radius: 30px;
+    color: blue;
+    padding: 3px;
+
+
+}
+.btn2:hover{
+    background-color: blueviolet;
+}
+
+.img2{
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    height: 500px;
+    width: 300px;
+    padding-top: 25px;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+

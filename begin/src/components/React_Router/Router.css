@@ -1,0 +1,37 @@
+.active_class{
+    text-decoration: none;
+    color: rgb(119,0,255);
+    border-bottom: 5px solid red;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    height: 50px;
+  }
+
+.navLink{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navLink:hover{
+    color: skyblue;
+}
+
+.active_class{
+    color: pink;
+}
+
+input{
+  margin-top: 10px;
+
+}
+
+img{
+  margin-top: 30px;
+  width: 500px;
+  height: 400px;
+}

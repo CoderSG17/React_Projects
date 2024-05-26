@@ -1,0 +1,5 @@
+"homepage" : "https://CoderSG17.github.io/BegginnerReactWebsite";
+
+api key for weather api - aa2f6d39127c61277146359de168099f ;
+
+https://api.openweathermap.org/data/2.5/weather?q=Pune&appid=aa2f6d39127c61277146359de168099f 

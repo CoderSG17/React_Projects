@@ -1,0 +1,22 @@
+<Netflix
+        imgsrc={SeriesData[0].imgsrc}
+        category={SeriesData[0].category}
+        title={SeriesData[0].title}
+        link={SeriesData[0].link}>
+
+      </Netflix>
+<Netflix
+        imgsrc={SeriesData[1].imgsrc}
+        category={SeriesData[1].category}
+        title={SeriesData[1].title}
+        link={SeriesData[1].link}>
+
+      </Netflix>
+
+      <Netflix
+        imgsrc={SeriesData[2].imgsrc}
+        category={SeriesData[2].category}
+        title={SeriesData[2].title}
+        link={SeriesData[2].link}>
+
+      </Netflix>

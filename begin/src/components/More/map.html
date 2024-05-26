@@ -1,0 +1,50 @@
+<!-- The map() method creates a new array with the results of calling a
+function for every array element.
+The map() method calls the provided function once for each element
+in an array, in order.
+Syntax
+array.map(function(currentValue, index, arr), thisValue)
+
+Argument Description
+currentValue Required. The value of the current element (jo array hai)
+index Optional. The array index of the current element
+arr Optional. The array object the current element belongs to.(kis aaray ke saath khel rhe hai wo bta dega) -->
+
+<p id="showdata">
+    
+</p>
+<script>
+    const oldarr = ['mayur', 'krishna', 'gupta' ];
+
+    // console.log (oldarr[0]);
+    // console.log( oldarr[1]);
+    // console.log(oldarr[2]);
+
+    //Instead of doing it one by one we could use map function
+    const newarr = oldarr.map (function (cvalue ,i) {
+    return cvalue+" "+i;
+    // return cvalue + "gupta";
+    });
+    console.log(newarr);
+    console.log(oldarr);
+    </script>
+
+
+<script>
+    const studentdata =[
+    { id: 1, name: "shray", degree: "MSC" },
+    {id: 2, name: "gupta", degree: "BA" },
+    {id: 3, name: "krishna", degree: "CS" },
+    ];
+    // console.log(studentdata[2].name);
+
+    //instead of writing function we could use arrow function
+    //benefit of this is we just now need to add values and do nothing with the function
+    const newdata = studentdata.map( (cvalue) => {
+    return ` My name is ${cvalue.name}. 
+             My highest degree is ${cvalue.degree}`
+    } );
+    console.log(newdata);
+
+    document.getElementById("showdata").innerHTML = newdata;
+    </script>

@@ -1,0 +1,32 @@
+.outr_div{
+    height: 950px;
+    padding-top: 60px;
+    background-color: #DAF5FF;
+    /* margin-right: 30px;
+    margin-left: 30px; */
+    margin-bottom: 80px;
+}
+.top_div{
+    margin: 0px 100px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.inner-div{
+    margin-bottom: 60px;
+    margin-right: 40px;
+    /* border: solid 2px red; */
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.inner-div:hover{
+    background-color: #B9F3FC;
+}
+.heading2{
+    font-size: 20px;
+    text-align: left;
+}
+

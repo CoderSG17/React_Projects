@@ -1,0 +1,101 @@
+/* @import "./saas/variables.scss" */
+@import '/src/saas/variables.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{ 
+    background-color: blueviolet;
+    height: 50px;
+  }
+
+.navLink{
+    /* padding: 10px; */
+    padding-bottom: 5px;
+    padding-right:50px ;
+    color: white;
+    text-decoration: none;
+}
+/* .navLink:active{
+    border-bottom: 5px solid red;
+} */
+
+
+.navLink:hover{
+    color: $brand-clr;
+}
+
+.fig{
+    margin-left: 27px;
+    // padding-right:300px;
+    /* padding-top: 10px; */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.mainDiv{
+    height: 490px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* grid-template-areas: left right; */
+    /* background-color: red; */
+
+}
+
+.innerDiv{
+    // margin-right: 95px;
+}
+
+
+.leftDiv{
+    margin-left: 60px;
+    /* background-color: green; */
+    margin-top: 150px;
+}
+
+.button{
+    padding: 5px;
+    border: 2px solid skyblue;
+    border-radius: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: skyblue;
+    background-color: white;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color:aquamarine;
+}
+
+.rightDiv img{
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 300px;
+}
+
+.rightDiv img {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+form{
+    /* height: 300px; */
+    /* padding-top:5px; */
+    padding-bottom: 16px;
+    margin-left: 400px;
+    width: 500px;
+}

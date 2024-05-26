@@ -1,0 +1,13 @@
+React hooks provides a concept call Context.
+
+React Context API allows you to easily access data at
+different levels of the component tree,
+without pp»ing prop to every level
+
+createContext() -- kuch data pass kr ske 
+provider-- koi data ko pass kr ske
+consume -- koi usse access kr ske
+
+
+Usage ??
+Suppose agar App.jsx mein koi aisa data hai jisse mujhe bss comp3 mein pass krna hai toh there we use Context .

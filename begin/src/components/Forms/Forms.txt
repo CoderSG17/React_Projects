@@ -1,0 +1,54 @@
+kisi bhi component  (eg .INPUT FIELD) KO AGAR REACT CONTROL KREGA TOH WE SAY IT IS controlled component
+
+
+import React, { useState } from "react";
+import './Forms.css'
+
+//Long way to create forms and display  the input value given by user   
+
+const Forms=()=>{
+    
+    const[naam,setnaam]=useState("");
+
+    const[pass,setpass]=useState("");
+
+    const[fullName,setfullName]=useState("");
+
+    const [newpass,setnewpass]=useState("");
+
+    //event is object name
+    const sub=(event)=>{
+        event.preventDefault(); // it prevents reloading of page as in forms page reloads itself by deafult on submitting the form 
+        setfullName(naam);
+        setnewpass(pass);
+    }
+
+    //onChange( or kisi bhi event listener) ko use krne pr ek object bnta hai toh humne "event.target.value" se event(object name) ke target element ki value fetch kr li .. mtlb input feild mein jo bhi user likh rha hai wo hum store kr skte hai .
+    const inputEvent=(event)=>{
+        console.log(event.target.value);
+        setnaam(event.target.value);
+        
+
+    }
+
+    const inputPassEvent=(event)=>{
+        // console.log(event.target.value);
+        setpass(event.target.value);
+        
+    }
+
+    return(
+        <form onSubmit={sub}>
+        <div>
+            <h1>Hello {fullName} {newpass}</h1>
+            <input type="text" placeholder="Enter your name"  onChange={inputEvent} value={naam} />
+            <br />
+            <input type="text" placeholder="Enter your password"  onChange={inputPassEvent} value={pass} />
+            <button type="submit">Submit 💁</button>
+
+        </div>
+        </form>
+    );
+}
+
+export default Forms;
